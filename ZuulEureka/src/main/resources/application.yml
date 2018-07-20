@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: gateway-service-zuul
+server:
+  port: 8888
+
+#这里的配置表示，访问/it/** 直接重定向到http://www.ityouknow.com/**
+#  http://www.ityouknow.com/**
+zuul:
+# 开启重试功能
+  retryable: true
+  routes:
+    api-a:
+      path: /producer/**
+      serviceId: EurekaServiceProvider
+#      1、url: http://localhost:9000/
+#     服务实例ID
+#      2、serviceId: EurekaServiceProvider
+# 第一种：直接硬编码转发url
+# 第二种：使用Eureka服务注册与发现中心
+# 第三种：直接注释掉所有，使用zuul的默认转发配置
+# http://ZUUL_HOST:ZUUL_PORT/微服务在Eureka上的serviceId/**会被转发到serviceId对应的微服务
+
+
+zuul:
+
+ribbon:
+# 对当前服务的重试次数
+  MaxAutoRetries: 2
+# 切换到相同Server的次数
+  MaxAutoRetriesNextServer: 0
+
+eureka:
+  client:
+    service-url:
+      defaultZone:
+#       Eureka 注册地址
+        http://localhost:8000/eureka/
+spring:
+  zipkin:
+    base-url: http://localhost:9000
+  sleuth:
+    sampler:
+      percentage: 1.0

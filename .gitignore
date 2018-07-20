@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+ZipkinServer/.mvn/
+ZipkinServer/mvnw
+ZipkinServer/mvnw.cmd
+ZipkinServer/pom.xml
+ZipkinServer/src/
+Zuul/.mvn/
+Zuul/mvnw
+Zuul/mvnw.cmd
+Zuul/pom.xml
+Zuul/src/

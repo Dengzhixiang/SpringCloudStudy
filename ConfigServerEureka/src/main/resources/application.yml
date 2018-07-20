@@ -1,0 +1,20 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://172.29.3.247/Dengzhixiang/SpringCloudStudy.git
+          search-paths: /
+          username: Dengzhixiang
+          password: dezhixiang
+
+# 将 Config Server 注册到 Eureka 服务注册中
+# 如此 Config Client 就不需要硬编码 Config Server IP 进行路由
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/

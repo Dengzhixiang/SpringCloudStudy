@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: EurekaServiceProvider
+server:
+  port: 9000
+eureka:
+  client:
+    serviceUrl:
+      defaultZone:
+        http://localhost:8000/eureka/
+spring:
+  zipkin:
+    base-url: http://localhost:9000
+  sleuth:
+    sampler:
+      percentage: 1.0

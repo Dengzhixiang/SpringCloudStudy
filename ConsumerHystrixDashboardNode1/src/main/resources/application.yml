@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Node1
+server:
+  port: 9001
+eureka:
+  client:
+    serviceUrl:
+      defaultZone:
+        http://localhost:8000/eureka/
+
+# 此处配置启用 Hystrix，虽然未识别，但照样生效
+feign:
+  hystrix:
+    enabled: true
+

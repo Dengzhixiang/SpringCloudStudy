@@ -1,0 +1,13 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://172.29.3.247/Dengzhixiang/SpringCloudStudy.git
+          search-paths: /
+          username: Dengzhixiang
+          password: dezhixiang

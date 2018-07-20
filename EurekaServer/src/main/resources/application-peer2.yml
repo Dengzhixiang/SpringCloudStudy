@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: spring-cloud-eureka
+server:
+  port: 8002
+eureka:
+  instance:
+    hostname: peer2
+  # 默认情况下,该服务注册中心会将自己作为客户端尝试注册自己,需要禁止
+  client:
+    # 表示是否将自己注册到Eureka Server，默认为true
+    register-with-eureka: false
+    # 表示是否从Eureka Server获取注册信息
+    fetch-registry: false
+    # 设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址
+    serviceUrl:
+      defaultZone: http://peer1:8001/eureka/,http://peer3:8003/eureka/
+

@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: EurekaServiceConsumer
+server:
+  port: 9001
+eureka:
+  client:
+    serviceUrl:
+      defaultZone:
+        http://localhost:8000/eureka/
+
+# \u6B64\u5904\u914D\u7F6E\u542F\u7528 Hystrix\uFF0C\u867D\u7136\u672A\u8BC6\u522B\uFF0C\u4F46\u7167\u6837\u751F\u6548
+feign:
+  hystrix:
+    enabled: true
+

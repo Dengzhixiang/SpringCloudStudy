@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaServiceProvider/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaServiceConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaServiceConsumerHystrixDashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaServiceConsumerHystrixDashboardTurbine/pom.xml" />
+        <option value="$PROJECT_DIR$/ConsumerHystrixDashboardNode1/pom.xml" />
+        <option value="$PROJECT_DIR$/ConsumerHystrixDashboardNode2/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigClient/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServerEureka/pom.xml" />
+        <option value="$PROJECT_DIR$/Zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/ZuulEureka/pom.xml" />
+        <option value="$PROJECT_DIR$/EurekaServiceProviderTwo/pom.xml" />
+        <option value="$PROJECT_DIR$/ZipkinServer/pom.xml" />
+        <option value="$PROJECT_DIR$/ConsulProducer/pom.xml" />
+        <option value="$PROJECT_DIR$/ConsulProducerTwo/pom.xml" />
+        <option value="$PROJECT_DIR$/ConsulConsumer/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>
