@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ConfigClient" />
+        <module name="ConfigClientTwo" />
         <module name="ConfigServer" />
         <module name="ConfigServerEureka" />
+        <module name="ConfigServerTwo" />
         <module name="ConsulConsumer" />
         <module name="ConsulProducer" />
         <module name="ConsulProducerTwo" />
@@ -27,8 +29,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ConfigClient" target="1.8" />
+      <module name="ConfigClientTwo" target="1.8" />
       <module name="ConfigServer" target="1.8" />
       <module name="ConfigServerEureka" target="1.8" />
+      <module name="ConfigServerTwo" target="1.8" />
       <module name="ConsulConsumer" target="1.8" />
       <module name="ConsulProducer" target="1.8" />
       <module name="ConsulProducerTwo" target="1.8" />

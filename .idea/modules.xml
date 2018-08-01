@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ConfigClient/ConfigClient.iml" filepath="$PROJECT_DIR$/ConfigClient/ConfigClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConfigClientTwo/ConfigClientTwo.iml" filepath="$PROJECT_DIR$/ConfigClientTwo/ConfigClientTwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConfigServer/ConfigServer.iml" filepath="$PROJECT_DIR$/ConfigServer/ConfigServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConfigServerEureka/ConfigServerEureka.iml" filepath="$PROJECT_DIR$/ConfigServerEureka/ConfigServerEureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ConfigServerTwo/ConfigServerTwo.iml" filepath="$PROJECT_DIR$/ConfigServerTwo/ConfigServerTwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConsulConsumer/ConsulConsumer.iml" filepath="$PROJECT_DIR$/ConsulConsumer/ConsulConsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConsulProducer/ConsulProducer.iml" filepath="$PROJECT_DIR$/ConsulProducer/ConsulProducer.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConsulProducerTwo/ConsulProducerTwo.iml" filepath="$PROJECT_DIR$/ConsulProducerTwo/ConsulProducerTwo.iml" />

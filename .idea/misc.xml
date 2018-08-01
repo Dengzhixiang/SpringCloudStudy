@@ -25,6 +25,8 @@
         <option value="$PROJECT_DIR$/ConsulProducer/pom.xml" />
         <option value="$PROJECT_DIR$/ConsulProducerTwo/pom.xml" />
         <option value="$PROJECT_DIR$/ConsulConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServerTwo/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigClientTwo/pom.xml" />
       </list>
     </option>
   </component>

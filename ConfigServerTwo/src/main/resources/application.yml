@@ -1,0 +1,24 @@
+server:
+  port: 8003
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: http://172.29.3.247/Dengzhixiang/SpringCloudStudy.git
+          search-paths: /
+          username: Dengzhixiang
+          password: dezhixiang
+  rabbitmq:
+    port: 5672
+    username: guest
+    password: guest
+management:
+  security:
+    enabled: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
